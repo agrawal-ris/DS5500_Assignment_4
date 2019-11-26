@@ -100,7 +100,7 @@ plt.ylabel('Count')
 
 
 
-![png](output_8_1.png)
+![png](/Images/output_8_1.png)
 
 
 We can see that majority of the budget cuts are proportionally in the low range i.e. less than 0.15
@@ -419,31 +419,31 @@ for i in races:
 ```
 
 
-![png](output_17_0.png)
+![png](/Images/output_17_0.png)
 
 
 
-![png](output_17_1.png)
+![png](/Images/output_17_1.png)
 
 
 
-![png](output_17_2.png)
+![png](/Images/output_17_2.png)
 
 
 
-![png](output_17_3.png)
+![png](/Images/output_17_3.png)
 
 
 
-![png](output_17_4.png)
+![png](/Images/output_17_4.png)
 
 
 
-![png](output_17_5.png)
+![png](/Images/output_17_5.png)
 
 
 
-![png](output_17_6.png)
+![png](/Images/output_17_6.png)
 
 
 From the plots of the respective races we can see that there isnt really that big of a difference between histograms of Budget Cut and No Budget Cuts except Hispanic, Black and White races.
@@ -484,7 +484,7 @@ plt.title('Proportion of Children with Disability for Each District')
 
 
 
-![png](output_23_1.png)
+![png](/Images/output_23_1.png)
 
 
 We can see that the proportion of the children with disability is significantly less and stays mostly below 40% for each district.
@@ -506,7 +506,7 @@ axs[1].set_title('Children With Disability'+ ': No Budget Cut')
 
 
 
-![png](output_25_1.png)
+![png](/Images/output_25_1.png)
 
 
 As we see that the method that I chose to do the budget cut, didnt really made a difference for children with disability as the plot for budget cut and no budget cut are pretty similar. One reason for bias that can be there in this model is that the i removed all the missing values so that might have produced some kind of bias in the data as treating them by replacing them with median/mean or some other analysis might have yielded a different result. But since the count of the missing data was less, I went ahead with removing it as I thought it wont severely affect the analysis that I made.
